@@ -1,0 +1,149 @@
+<resources>
+    <string name = "app_name">سيناريو</string>
+
+
+    <string name="facebook_app_id">248223390268417</string>
+    <string name="fb_login_protocol_scheme">fb248223390268417</string>
+
+    <string name = "delete">هل تريد الحذف فعلا</string>
+    <string name = "yes">نعم</string>
+    <string name = "no">لا</string>
+    <string name = "enter_title">ادخل العنوان</string>
+
+
+    <string name = "email">البريد الالكتروني</string>
+    <string name = "password">الرقم السري</string>
+    <string name = "name">الاسم</string>
+    <string name = "birthday">تاريخ الميلاد</string>
+    <string name = "country">البلد</string>
+    <string name = "male">ذكر</string>
+     <string name = "female">انثى</string>
+     <string name = "open">تسجيل الدخول</string>
+      <string name = "register">ليس لديك حساب؟</string>
+      <string name = "forgot">هل نسيت الرمز؟</string>
+<string name = "open_account">ادخل بريدك الالكتروني</string>
+
+    <string name = "done">تم</string>
+    <string name = "enter_num">ادخل الرمز</string>
+    <string name = "enter_pass">ادخل الرمز الجديد</string>
+    <string name = "returnn">اعادة الارسال</string>
+<string name = "send_num">قم بادخال الرمز الذي ارسلناه الى بريدك الالكتروني اذا لم يصل اضغط اعادة ارسال</string>
+
+     <string name = "all">الكل</string>
+     <string name = "friend">الاصدقاء</string>
+
+    <string name = "view">مشاهدة</string>
+    <string name = "send">ارسال طلب</string>
+ <string name = "deletee">حذف</string>
+ <string name = "edit">تعديل</string>
+<string name = "comment">التعليقات</string>
+
+<string name = "nointrnet">لا يوجد اتصال بالانترنت</string>
+
+
+    <string name = "gotopage">صفحتك</string>
+ <string name = "entertitle">ادخل العنوان</string>
+<string name = "codesmall">هذا الرمز قصير</string>
+<string name = "account_register">هذا الحساب مسجل</string>
+
+
+
+
+
+
+
+
+    <string name = "text_help">الطريقة الموجودة في هذا التطبيق هي الطريقة الامريكية والتي تعتبر الطريقة العالمية والاكثر استعمالا في كتابة السيناريوهات لسهولتها ووضوحها ولا تجد صعوبة في استعمالها وسوف نشرح لكم هذه الطريقة \n\n الخطوة الاولة تتكون من رقم المشهد مثلا عند البداية اكتب المشهد الاول وعند بداية مشهد جديد بعده اكتب المشهد الثاني وهكذا \n\n
+    الخطوة الثانية تتكون من مكان المشهد وزمان حدوث المشهد مثلا\n داخلي-منزل-نهار\n\n\n
+    الخطوة الثالثة تتكون من وصف المشهد والاحداث التي تدور حول القصة مثلا\n
+        \n\nيجلس محمد في غرفته ويقرا دروسه اسعداد للامتحان واذا به يسمع صوتا من الخارج يقوم بالقاء نظرة من شباك غرفته المطلة على الحديقة ليرى احد اغصان الشجرة قد كسر بسبب الرياح القوية
+   \n \nالخطوة الثالثة تتكون من الحوار بين شخصيتين او اكثر وتكتب اسم الشحصية وتحتها الحوار مثلا\n\n
+    علي \n
+    مرحبا سارة كيف حالك\n
+    سارة \n
+    بخير والحمدلله</string>
+
+    <string name = "screen_joker">هذا المشهد الرابع من فلم الجوكر</string>
+
+
+
+    <string name = "joker1">خارجي-باص-الغسق</string>
+
+    <string name = "joker2">جوكر ، يشق طريقه نحو مؤخرة الحافلة المزدحمة الآن
+    يمشي مع عرج خفيف ، ولكن مع إبقاء رأسه عالياً.
+
+    مكياجه المغسول والزي والدعائم كلها تُدفع إلى
+    حقيبة تسوق كبيرة معلقة على كتفه. بعض الشحوم البيضاء-
+    لا يزال الطلاء ملطخًا على جوانب وجهه.
+
+    وجد مقعدًا فارغًا في مؤخرة الحافلة. يرى حزينا-
+    عين فتاة تبلغ من العمر أربع سنوات </string>
+
+    <string name = "joker3">منتفخ الوجه من البكاء ، والجلوس على
+    ركبتيها تنظر إليه.</string>
+
+
+<string name = "joker4">والدتها تتجه للأمام ،
+    لكن حتى من الخلف يمكنك أن تقول إنها غاضبة</string>
+
+
+    <string name = "joker5">رى جوكر الفتاة الحزينة تنظر إليه مباشرة. هو
+    لا يعرف أين يبحث ، والشعور بالوعي الذاتي والصغير.
+    يعود إلى "الشخصية" مبتسمًا مثل المهرج ويغطي
+    وجهه بيديه - يبدأ بلعب لعبة
+    معها.
+
+    تنظر الفتاة إليه للحظة ثم تضحك</string>
+
+
+
+
+    <string name = "joker6">المراة في الحافلة\n هل يمكنك التوقف عن مضايقة طفلي من فضلك؟</string>
+
+    <string name = "joker7">جوكر\n   لم أكن أزعجها ، كنت\n المراة في الحافلة\n توقف فحسب</string>
+
+
+    <string name = "joker8"> وفجأة يبدأ جوكر في الضحك. بصوت عال. يغطي فمه
+    يحاول إخفاء ذلك - يهز رأسه ، ويتوقف الضحك لمدة
+     ولكن بعد ذلك تأتي أقوى. عيناه حزينتان. ذلك
+    في الواقع يبدو أن الضحك يسبب له الألم.
+
+
+
+    الناس في الحافلة يحدقون.</string>
+
+
+
+
+    <string name = "joker9">المراة في الحافلة\n  هل تعتقد أن هذا مضحك؟</string>
+
+
+
+
+    <string name = "joker10">يهز جوكر رأسه لا ، لكنه لا يستطيع التوقف عن الضحك. هو
+    يصل إلى جيبه ويسحب بطاقة صغيرة. سلمها إلى
+    المرأة.</string>
+
+
+    <string name = "joker11">اعتذر عن الضحك انا اعاني من حالة مرضية هناك المزيد على ظهر البطاقة</string>
+
+    <string name = "joker12">لقد قلبت البطاقة وهناك مجموعة من المعلومات
+    في كتابة صغيرة--
+    "إنها حالة طبية تسبب ضحكًا مفاجئًا ومتكررًا ولا يمكن السيطرة عليه
+    لا يتطابق مع ما تشعر به.</string>
+
+
+
+
+    <string name = "joker13">يمكن أن يحدث للأشخاص الذين يعانون من إصابة في الدماغ أو معينة
+    الظروف العصبية</string>
+
+
+
+
+    <string name = "joker14"> جوكر يضحك أكثر. الدموع تنهمر على وجهه.
+
+    لا يريد أن يجذب المزيد من الاهتمام لنفسه </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name = "hello_blank_fragment">Hello blank fragment</string>
+</resources>

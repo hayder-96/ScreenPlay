@@ -1,0 +1,183 @@
+package com.example.translateapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+
+public class MainActivity extends AppCompatActivity {
+
+    private Intent intent;
+    private int i;
+    private ListView listView;
+    private AdapterClass adapterClass;
+    private ArrayList<Item> arrayList = new ArrayList<>();
+    private Context context = this;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+
+        listView = findViewById(R.id.list);
+
+        intent = getIntent();
+        i = intent.getIntExtra("id", -1);
+
+        if (i == 1) {
+            AddItem(arrayList, getResources().getString(R.string.A));
+            AddItem(arrayList, getResources().getString(R.string.B));
+            AddItem(arrayList, getResources().getString(R.string.C));
+            AddItem(arrayList, getResources().getString(R.string.D));
+            AddItem(arrayList, getResources().getString(R.string.E));
+            AddItem(arrayList, getResources().getString(R.string.F));
+            AddItem(arrayList, getResources().getString(R.string.G));
+            AddItem(arrayList, getResources().getString(R.string.H));
+            AddItem(arrayList, getResources().getString(R.string.I));
+            AddItem(arrayList, getResources().getString(R.string.J));
+            AddItem(arrayList, getResources().getString(R.string.K));
+            AddItem(arrayList, getResources().getString(R.string.L));
+            AddItem(arrayList, getResources().getString(R.string.M));
+            AddItem(arrayList, getResources().getString(R.string.N));
+            AddItem(arrayList, getResources().getString(R.string.O));
+            AddItem(arrayList, getResources().getString(R.string.P));
+            AddItem(arrayList, getResources().getString(R.string.Q));
+            AddItem(arrayList, getResources().getString(R.string.R));
+            AddItem(arrayList, getResources().getString(R.string.S));
+            AddItem(arrayList, getResources().getString(R.string.T));
+            AddItem(arrayList, getResources().getString(R.string.U));
+            AddItem(arrayList, getResources().getString(R.string.V));
+            AddItem(arrayList, getResources().getString(R.string.W));
+            AddItem(arrayList, getResources().getString(R.string.X));
+            AddItem(arrayList, getResources().getString(R.string.Y));
+            AddItem(arrayList, getResources().getString(R.string.Z));
+
+
+        } else if (i == 2) {
+            AddItem(arrayList, getResources().getString(R.string.zero));
+            AddItem(arrayList, getResources().getString(R.string.one));
+            AddItem(arrayList, getResources().getString(R.string.tow));
+            AddItem(arrayList, getResources().getString(R.string.three));
+            AddItem(arrayList, getResources().getString(R.string.four));
+            AddItem(arrayList, getResources().getString(R.string.five));
+            AddItem(arrayList, getResources().getString(R.string.six));
+            AddItem(arrayList, getResources().getString(R.string.seven));
+            AddItem(arrayList, getResources().getString(R.string.eight));
+            AddItem(arrayList, getResources().getString(R.string.nine));
+            AddItem(arrayList, getResources().getString(R.string.ten));
+            AddItem(arrayList, getResources().getString(R.string.eleven));
+            AddItem(arrayList, getResources().getString(R.string.twelve));
+            AddItem(arrayList, getResources().getString(R.string.thirteen));
+            AddItem(arrayList, getResources().getString(R.string.fourteen));
+            AddItem(arrayList, getResources().getString(R.string.fifteen));
+            AddItem(arrayList, getResources().getString(R.string.sixteen));
+            AddItem(arrayList, getResources().getString(R.string.seventeen));
+            AddItem(arrayList, getResources().getString(R.string.eighteen));
+            AddItem(arrayList, getResources().getString(R.string.nineteen));
+            AddItem(arrayList, getResources().getString(R.string.twenty));
+
+        } else if (i == 3) {
+
+            AddItem(arrayList, getResources().getString(R.string.black));
+            AddItem(arrayList, getResources().getString(R.string.red));
+            AddItem(arrayList, getResources().getString(R.string.white));
+            AddItem(arrayList, getResources().getString(R.string.green));
+            AddItem(arrayList, getResources().getString(R.string.grey));
+            AddItem(arrayList, getResources().getString(R.string.purple));
+            AddItem(arrayList, getResources().getString(R.string.pink));
+            AddItem(arrayList, getResources().getString(R.string.yellow));
+            AddItem(arrayList, getResources().getString(R.string.orange));
+            AddItem(arrayList, getResources().getString(R.string.blue));
+            AddItem(arrayList, getResources().getString(R.string.brouwn));
+
+
+        } else if (i == 4) {
+
+            AddItem(arrayList, getResources().getString(R.string.jordan));
+            AddItem(arrayList, getResources().getString(R.string.emirates));
+            AddItem(arrayList, getResources().getString(R.string.eritrea));
+            AddItem(arrayList, getResources().getString(R.string.bahrain));
+            AddItem(arrayList, getResources().getString(R.string.algeria));
+            AddItem(arrayList, getResources().getString(R.string.saudi));
+            AddItem(arrayList, getResources().getString(R.string.sudan));
+            AddItem(arrayList, getResources().getString(R.string.somalia));
+            AddItem(arrayList, getResources().getString(R.string.iraq));
+            AddItem(arrayList, getResources().getString(R.string.kuwait));
+            AddItem(arrayList, getResources().getString(R.string.morocco));
+            AddItem(arrayList, getResources().getString(R.string.yemen));
+            AddItem(arrayList, getResources().getString(R.string.tunisia));
+            AddItem(arrayList, getResources().getString(R.string.djibouti));
+            AddItem(arrayList, getResources().getString(R.string.syria));
+            AddItem(arrayList, getResources().getString(R.string.oman));
+            AddItem(arrayList, getResources().getString(R.string.palestine));
+            AddItem(arrayList, getResources().getString(R.string.qatar));
+            AddItem(arrayList, getResources().getString(R.string.lebanon));
+            AddItem(arrayList, getResources().getString(R.string.libya));
+            AddItem(arrayList, getResources().getString(R.string.egypt));
+            AddItem(arrayList, getResources().getString(R.string.mauritania));
+
+
+        } else if (i == 5) {
+
+            AddItem(arrayList, getResources().getString(R.string.father));
+            AddItem(arrayList, getResources().getString(R.string.mother));
+            AddItem(arrayList, getResources().getString(R.string.brother));
+            AddItem(arrayList, getResources().getString(R.string.sister));
+            AddItem(arrayList, getResources().getString(R.string.grandfather));
+            AddItem(arrayList, getResources().getString(R.string.grandmother));
+            AddItem(arrayList, getResources().getString(R.string.son));
+            AddItem(arrayList, getResources().getString(R.string.daughter));
+            AddItem(arrayList, getResources().getString(R.string.uncle));
+            AddItem(arrayList, getResources().getString(R.string.aunt));
+            AddItem(arrayList, getResources().getString(R.string.husband));
+            AddItem(arrayList, getResources().getString(R.string.wife));
+            AddItem(arrayList, getResources().getString(R.string.cousin));
+
+        } else if (i == 6) {
+
+            AddItem(arrayList, getResources().getString(R.string.accountant));
+            AddItem(arrayList, getResources().getString(R.string.actor));
+            AddItem(arrayList, getResources().getString(R.string.ambassador));
+            AddItem(arrayList, getResources().getString(R.string.artist));
+            AddItem(arrayList, getResources().getString(R.string.baker));
+            AddItem(arrayList, getResources().getString(R.string.barber));
+            AddItem(arrayList, getResources().getString(R.string.carpenter));
+            AddItem(arrayList, getResources().getString(R.string.chef));
+            AddItem(arrayList, getResources().getString(R.string.doctor));
+            AddItem(arrayList, getResources().getString(R.string.driver));
+            AddItem(arrayList, getResources().getString(R.string.electrician));
+            AddItem(arrayList, getResources().getString(R.string.engineer));
+            AddItem(arrayList, getResources().getString(R.string.jewellery));
+            AddItem(arrayList, getResources().getString(R.string.journalist));
+            AddItem(arrayList, getResources().getString(R.string.judge));
+            AddItem(arrayList, getResources().getString(R.string.lawyer));
+            AddItem(arrayList, getResources().getString(R.string.mason));
+            AddItem(arrayList, getResources().getString(R.string.mechanical));
+            AddItem(arrayList, getResources().getString(R.string.merchant));
+            AddItem(arrayList, getResources().getString(R.string.nurse));
+            AddItem(arrayList, getResources().getString(R.string.painter));
+            AddItem(arrayList, getResources().getString(R.string.photographer));
+            AddItem(arrayList, getResources().getString(R.string.pilot));
+            AddItem(arrayList, getResources().getString(R.string.poet));
+            AddItem(arrayList, getResources().getString(R.string.policeman));
+            AddItem(arrayList, getResources().getString(R.string.salesman));
+            AddItem(arrayList, getResources().getString(R.string.scientist));
+            AddItem(arrayList, getResources().getString(R.string.secretary));
+            AddItem(arrayList, getResources().getString(R.string.smith));
+            AddItem(arrayList, getResources().getString(R.string.surgeon));
+            AddItem(arrayList, getResources().getString(R.string.teacher));
+            AddItem(arrayList, getResources().getString(R.string.weaver));
+            AddItem(arrayList, getResources().getString(R.string.writer));
+
+
+        } else if (i == 7) {
+
+            AddItem(array

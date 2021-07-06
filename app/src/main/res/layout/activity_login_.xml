@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="@drawable/book_desin"
+    android:orientation="vertical"
+   >
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+      android:layout_weight="1"
+      android:orientation = "vertical">
+            </LinearLayout>
+    <LinearLayout
+      android:id = "@+id/layout_number"
+      android:layout_width = "match_parent"
+        android:layout_weight="5"
+      android:layout_height = "0dp"
+        android:visibility="gone"
+      android:orientation = "vertical">
+
+            <TextView
+                android:id = "@+id/textView4"
+                android:layout_width = "match_parent"
+                android:layout_height = "0dp"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:textColor="#000"
+                android:text = "@string/send_num" />
+        <EditText
+                android:id = "@+id/edit_number_forgot"
+                android:layout_width = "match_parent"
+                android:layout_height = "0dp"
+                android:ems = "10"
+                 android:hint="@string/enter_num"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColorHint="#000"
+                android:inputType = "number" />
+      <LinearLayout
+          android:layout_width = "match_parent"
+          android:layout_height = "0dp"
+          android:layout_weight="1"
+          android:orientation = "horizontal">
+            <Button
+                android:id = "@+id/but_done_numforgot"
+                android:layout_width = "0dp"
+                android:layout_weight = "1"
+                android:textSize="15sp"
+                android:background="@color/colorAccent"
+                android:layout_height = "wrap_content"
+                android:text = "@string/done" /><Button
+          android:id = "@+id/but_return_forgot"
+          android:layout_width = "0dp"
+          android:textSize="15sp"
+          android:background="@color/colorAccent"
+          android:layout_height = "wrap_content"
+          android:layout_weight = "1"
+          android:text = "@string/returnn" /></LinearLayout>
+  </LinearLayout>
+    <LinearLayout
+      android:id = "@+id/layout_password"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+      android:orientation = "vertical">
+            <TextView
+                android:id = "@+id/textView5"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:text = "@string/enter_pass"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:gravity="center"/>
+        <EditText
+                android:id = "@+id/forgot_password"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:ems = "10"
+                android:inputType = "textPassword" /><Button
+      android:id = "@+id/but_forgot_password"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"
+      android:text = "@string/done" />
+    </LinearLayout>
+    <LinearLayout
+      android:id = "@+id/layout_forgot"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+      android:orientation = "vertical">
+
+
+            <TextView
+                android:id = "@+id/textView2"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:text = "@string/open_account"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:gravity="center"/>
+        <EditText
+                android:id = "@+id/edit_email_login"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:ems = "10"
+                android:inputType = "textEmailAddress" />
+        <Button
+      android:id = "@+id/but_done_login"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@color/colorAccent"
+      android:text = "@string/done" />
+  </LinearLayout>
+  <LinearLayout
+      android:id = "@+id/layout_login"
+      android:layout_width = "match_parent"
+      android:layout_weight="2"
+
+      android:layout_height = "0dp"
+      android:orientation = "vertical">
+            <EditText
+                android:id = "@+id/log_email"
+                android:layout_width = "match_parent"
+                android:layout_height = "0dp"
+                android:ems = "10"
+                android:hint="@string/email"
+                android:gravity="center"
+                android:layout_weight="0.70"
+                android:inputType = "textEmailAddress" />
+      <EditText
+      android:id = "@+id/log_password"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+      android:ems = "10"
+          android:hint="@string/password"
+          android:gravity="center"
+          android:layout_weight="0.70"
+      android:inputType = "textPassword" />
+      <Button
+      android:id = "@+id/but_log"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+          android:layout_weight="0.70"
+          android:background="@color/colorAccent"
+      android:text = "@string/open" />
+
+      <View
+          android:id = "@+id/view2"
+          android:layout_width = "match_parent"
+          android:layout_weight="0.20"
+          android:layout_height = "0dp" /><Button
+      android:id = "@+id/but_reg2"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+      android:layout_weight="0.70"
+      android:background="@color/colorAccent"
+      android:text = "@string/register" /><TextView
+      android:id = "@+id/text_forgot"
+      android:layout_width = "match_parent"
+      android:layout_height = "0dp"
+      android:gravity = "center"
+      android:layout_weight="0.50"
+      android:text = "@string/forgot"
+      android:textSize = "20sp" />
+
+
+
+
+<com.facebook.login.widget.LoginButton
+    android:id="@+id/login_button"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.70"
+    android:layout_gravity="center_horizontal"/>
+      <ProgressBar
+      android:id = "@+id/progressBar_login"
+      style = "?android:attr/progressBarStyle"
+      android:layout_width = "match_parent"
+          android:layout_height="0dp"
+          android:visibility="gone"
+          android:layout_weight="0.70" />
+
+
+
+   />
+  </LinearLayout>
+  </LinearLayout>

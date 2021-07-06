@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:background = "#fff"
+    android:orientation="vertical"
+    android:layout_height = "wrap_content">
+
+<LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:layout_weight = "1"
+                android:orientation = "horizontal">
+            <LinearLayout
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                android:layout_weight = "5"
+                android:orientation = "vertical">
+            <ImageView
+                android:id = "@+id/image_comment"
+                android:layout_width = "wrap_content"
+                android:layout_height = "0dp"
+                android:layout_gravity="center"
+                android:layout_weight = "1"
+                tools:srcCompat = "@tools:sample/avatars" />
+                <TextView
+                android:id = "@+id/name_comment"
+                android:layout_width = "wrap_content"
+                android:layout_height = "0dp"
+                android:layout_weight = "3"
+                android:text = "حيدر"
+                    android:layout_gravity="center"
+                android:textSize = "20dp" />
+                <TextView
+                android:id = "@+id/date_comment"
+                android:layout_width = "wrap_content"
+                android:layout_height = "0dp"
+                android:layout_weight = "2"
+                    android:layout_gravity="center"
+                android:text = "1/1/2012"
+                android:textSize = "20dp" />
+            </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width = "wrap_content"
+                     android:layout_height = "match_parent"
+                     android:layout_weight = "2"
+                     android:orientation = "vertical">
+
+
+
+            <TextView
+                android:id = "@+id/textView6"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                />
+                     <TextView
+                android:id = "@+id/id_comment"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+
+                android:textSize= "20dp"
+
+                />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+
+                android:orientation = "horizontal">
+            <Button
+                android:id = "@+id/but_delete_come"
+                android:layout_width = "0dp"
+                android:visibility="invisible"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+
+                android:layout_weight = "1"
+                android:background = "#fff"
+                android:text = "@string/deletee" />
+                <Button
+                android:id = "@+id/but_edit_come"
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                    android:visibility="invisible"
+                android:layout_gravity = "center"
+                android:layout_weight = "1"
+
+                android:background = "#fff"
+                android:text = "@string/edit" /></LinearLayout>
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id = "@+id/recycler_replied"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"/>
+
+    <LinearLayout
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "horizontal">
+            <EditText
+                android:id = "@+id/edit_replied"
+                android:layout_width = "0dp"
+                android:layout_height = "wrap_content"
+                android:ems = "8"
+                android:layout_weight = "3"
+                android:hint = "رد"
+                android:textSize = "20dp" /><Button
+        android:id = "@+id/but_repl"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "1"
+        android:visibility="gone"
+        android:text = "رد" /></LinearLayout>
+</LinearLayout>

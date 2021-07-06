@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation="vertical"
+
+    tools:context = ".Profile_Activity">
+
+  <ImageView
+      android:id = "@+id/image_profile"
+      android:layout_width = "match_parent"
+      android:layout_height = "200dp"
+      tools:srcCompat = "@drawable/profileuser" />
+  <EditText
+      android:id = "@+id/name_profile"
+      android:layout_width = "match_parent"
+      android:hint="@string/name"
+      android:gravity="center"
+      android:textSize="25dp"
+      android:layout_height = "wrap_content"
+
+       />
+  <EditText
+    android:id = "@+id/birthday_id"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:textSize="25dp"
+      android:gravity="center"
+    android:hint="@string/birthday"
+    />
+  <EditText
+    android:id = "@+id/edit_country"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+      android:textSize="25dp"
+      android:gravity="center"
+    android:hint = "@string/country" />
+  <RadioGroup
+    android:id = "@+id/radio_groub"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content">
+  <RadioButton
+      android:id = "@+id/radioButton1"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:textSize="15dp"
+      android:text = "@string/male" />
+    <RadioButton
+    android:id = "@+id/radioButton2"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+        android:textSize="15dp"
+    android:text = "@string/female" />
+  </RadioGroup>
+
+
+
+
+  <Button
+    android:id = "@+id/but_done"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+      android:background="@color/colorAccent"
+    android:text = "@string/done" /></LinearLayout>
